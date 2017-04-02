@@ -1,40 +1,24 @@
-# java-getting-started
+# CaptalOne Web Application Submission
 
-A barebones Java app, which can easily be deployed to Heroku.
+This is my submission for CapitalOne's coding challenge for the software engineering summit of 2017.
 
-This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
+## First Repository
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Running Locally
-
-Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+My first repository which entails the files pretaining to the CapitalOne coding challenge.
 
 ```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ heroku local:start
+Please create the following: 
+
+Deployed web application - Website URL and the supporting Github repository.
+
+The application must use Yelp's Fusion API. You can use other public APIs as required.
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+## The Process
 
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
+This is my first web application and first time using git. My experience has been very interesting and confusing
+but educational and fun at the same time. I will continue to learn and build upon my knowledge of web applications,
+Javascript and front end coding.
 
-```
-DATABASE_URL=postgres://localhost:5432/java_database_name
-```
 
-## Deploying to Heroku
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
