@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: Java",
-  "description": "A barebones Java app, which can easily be deployed to Heroku.",
+  "name": "Capital One Submission",
+  "description": "A Reasturant and review app which helps randomly select a place to eat.",
   "image": "heroku/java",
   "addons": [ "heroku-postgresql" ]
 }
